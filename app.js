@@ -1,6 +1,6 @@
 // Configuration Setup
-const SUPABASE_URL = "YOUR_SUPABASE_PROJECT_URL";
-const SUPABASE_ANON_KEY = "YOUR_SUPABASE_ANON_PUBLIC_KEY";
+const SUPABASE_URL = "https://drubgjobavncwxnbhihg.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_Nzzkf2cXWY40kT6NfiUtYA_JTB6GZq7";
 
 async function fetchRecentJobs() {
   const feedContainer = document.getElementById("job-feed");
