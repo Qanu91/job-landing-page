@@ -32,7 +32,9 @@ async function fetchRecentJobs() {
       jobElement.className = "job-item";
       jobElement.innerHTML = `
         <div class="job-title">💼 <strong>${job.title}</strong> at ${job.company}</div>
+        <div class="job-desc">${job.description}</div>
         <div class="job-meta">
+
             <span>📍 ${job.location}</span>
             <a href="${job.link}" target="_blank" class="job-link">Apply Now 🔗</a>
         </div>
